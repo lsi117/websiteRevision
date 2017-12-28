@@ -1,0 +1,136 @@
+html,body{
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-image: url('../images/space.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'Poiret One', cursive;
+  color: #22063E;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  color: white;
+  font-size: 10rem;
+  font-family: 'Megrim', cursive;
+  text-align: center;
+  margin: 3px;
+  padding: 10px;
+}
+
+.logosub{
+  color: white;
+  font-size: 3rem;
+  font-family: 'Megrim', cursive;
+  text-align: center;
+  margin: 1px;
+  padding: 10px;
+}
+
+h1,h2,h3,h4{
+  font-size: 3rem;
+}
+
+h5,h6{
+  font-size: 2rem;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #22063E;
+}
+
+article{
+  margin: 15px;
+  padding: 5px;
+}
+
+section{
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 5px;
+}
+
+img{
+  border-radius: 15px;
+  box-shadow: 5px 10px 2px 1px rgba(0, 0, 0, .4);
+}
+
+#footer{
+  margin: 5px;
+  padding: 5px;
+  font-size: 3rem;
+  color: white;
+  display: inline;
+}
+
+#fontacolor{
+  margin: 10px;
+  padding: 5px;
+  color: #949AC1;
+}
+
+.fontawesomecolor{
+  color: white;
+  position: center;
+}
+
+
+/* Buzz */
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
