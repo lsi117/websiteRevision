@@ -18,6 +18,16 @@ html,body{
   align-items: center;
 }
 
+
+.fade{
+  opacity:0.5;
+}
+
+.fade:hover{
+  opacity:1;
+}
+
+
 .logo{
   color: white;
   font-size: 10rem;
@@ -132,7 +142,6 @@ img{
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
-
 
 /* responsive */
 @media screen and (max-width: 700px) {
